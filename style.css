@@ -1,0 +1,99 @@
+
+
+body {
+    padding-top: 70px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media (max-width: 576px) {
+    .search-form input[type="text"] {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 577px) {
+    .search-form input[type="text"] {
+        margin-bottom: 12px;
+    }
+}
+
+.fixed-width-image {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+body {
+    padding-top: 56px;
+}
+
+.search-form {
+    text-align: center;
+    margin-top: 50px;
+    /* Adjust the margin as needed */
+}
+
+.form-control {
+    max-width: 400px;
+    display: inline-block;
+    border-radius: 15px;
+    /* Set rounded corners for the search bar */
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+}
+
+
+.advanced-search-container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.advanced-search-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.advanced-search-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.advanced-search-button {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+.feeling-lucky-btn {
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.feeling-lucky-btn:hover {
+    background-color: #3367d6;
+}
+
+.feeling-lucky-container {
+    text-align: center;
+    margin-top: 20px;
+}
